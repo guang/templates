@@ -1,0 +1,73 @@
+%
+\documentclass[11pt]{scrartcl}
+\usepackage[margin=0.7in,top=0.5in]{geometry}
+%\usepackage{fullpage}
+\usepackage{graphicx}
+\usepackage{setspace}
+\usepackage{ccfonts}
+\usepackage{beton}
+\usepackage{wrapfig}
+
+\renewcommand{\bfdefault}{sbc}
+\renewcommand*{\pagemark}{} % no page numbers
+
+\newtheorem{defi}{Definition}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+
+\parindent0pt
+\parskip3pt
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% The commands below are edited from article.cls: ignore them!
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\makeatletter
+\renewcommand\section{\@startsection {section}{1}{\z@}%
+                                   {-3.5ex \@plus -1ex \@minus -.2ex}%
+                                   {.1ex \@plus.2ex}%
+                                   {\normalfont\normalsize\sffamily\bfseries}}
+\renewcommand\subsection{\@startsection{subsection}{2}{\z@}%
+                                     {-3.25ex\@plus -1ex \@minus -.2ex}%
+                                     {.1ex \@plus .2ex}%
+                                     {\normalfont\normalsize\sffamily\bfseries}}
+\renewcommand\subsubsection{\@startsection{subsubsection}{3}{\z@}%
+                                     {-3.25ex\@plus -1ex \@minus -.2ex}%
+                                     {.1ex \@plus .2ex}%
+                                     {\normalfont\normalsize\sffamily\bfseries}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\lhead{\footnotesize \parbox{11cm}{}}
+\rhead{\footnotesize \parbox{2cm}{Guang Yang}}
+\cfoot{\footnotesize Page \thepage\ of \pageref{LastPage}}
+\usepackage{amssymb}
+
+
+
+\makeatother
+
+\usepackage[normalem]{ulem}
+\usepackage{amsmath}
+
+\begin{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Memo Header
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\hspace*{-10pt}
+\begin{tabular}{lp{5.5in}}
+Date:    & \\[3pt]
+To:      & \\[3pt]
+From:    & \\[3pt] \\[3pt]
+Subject: & 
+\end{tabular} \vspace*{1em}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section*{Summary}
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\label{LastPage}
+\end{document}
